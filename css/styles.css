@@ -243,7 +243,16 @@ img {
     line-height: 1.18;
 }
 
+.logo-footer {
+    display: block;
+}
+
 .logo-third {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: var(--leter-spacingmain);
     color: var(--hero-title-color);
 }
 
@@ -260,6 +269,7 @@ img {
     letter-spacing: var(--leter-spacingmain);
     color: var(--hero-title-color);
     line-height: 1.71;
+    display: block;
 }
 
 .nav {
@@ -267,6 +277,7 @@ img {
     letter-spacing: var(--leter-spacingmain);
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.71;
+    display: block;
 }
 
 .work-item {
@@ -295,6 +306,7 @@ img {
 }
 
 .link-filter {
+    display: block;
     color: inherit;
     font-family: inherit;
     text-decoration: none;
@@ -350,6 +362,7 @@ img {
 }
 
 .logo {
+    display: block;
     margin-right: 93px;
 }
 
