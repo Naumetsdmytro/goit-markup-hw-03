@@ -17,18 +17,20 @@
 
 <body>
     <header class="header">
-        <div class="container">
-            <nav>
-                <a href="./index.html" class="link"><span class="logo-first logo-link">Web</span><span
+        <div class="container header-container">
+            <nav class="header-nav">
+                <a href="./index.html" class="link logo"><span class="logo-first logo-link">Web</span><span
                         class="logo-second logo-link">Studio</span></a>
-                <ul class="list">
-                    <li><a href="./index.html" class="link-nav link">Студія</a></li>
-                    <li><a href="./portfolio.html" class="link-nav link current">Портфоліо</a></li>
+                <ul class="list header-list">
+                    <li class="header-list-item"><a href="./index.html" class="link-nav link">Студія</a></li>
+                    <li class="header-list-item"><a href="./portfolio.html" class="link-nav link current">Портфоліо</a>
+                    </li>
                     <li><a href="" class="link-nav link">Контакти</a></li>
                 </ul>
             </nav>
-            <ul class="list">
-                <li><a href="mailto:info@devstudio.com" class="link link-head">info@devstudio.com</a></li>
+            <ul class="list header-list-info">
+                <li class="header-list-item"><a href="mailto:info@devstudio.com"
+                        class="link link-head">info@devstudio.com</a></li>
                 <li><a href="tel:+380961111111" class="link link-head">+38 096 111 11 11</a></li>
             </ul>
         </div>
@@ -38,58 +40,80 @@
             <div class="container">
                 <h1 class="visually-hidden">Роботи</h1>
                 <ul class="list">
-                    <li><button type="button" class="button buutton-filter">Усі</button></li>
-                    <li><button type="button" class="button buutton-filter">Веб-сайти</button></li>
-                    <li><button type="button" class="button buutton-filter">Додатки</button></li>
-                    <li><button type="button" class="button buutton-filter">Дизайн</button></li>
-                    <li><button type="button" class="button buutton-filter">Маркетинг</button></li>
+                    <div class="nav-container">
+                        <li class="button-nav"><button type="button" class="button buutton-filter">Усі</button></li>
+                        <li class="button-nav"><button type="button" class="button buutton-filter">Веб-сайти</button>
+                        </li>
+                        <li class="button-nav"><button type="button" class="button buutton-filter">Додатки</button></li>
+                        <li class="button-nav"><button type="button" class="button buutton-filter">Дизайн</button></li>
+                        <li class="button-nav"><button type="button" class="button buutton-filter">Маркетинг</button>
+                        </li>
+                    </div>
                 </ul>
-                <ul class="list">
-                    <li><a href="" class="link-filter"><img src="./images/photo1.jpg" alt="Технокряк" width="370"
-                                height="294">
-                            <h2 class="title-filter">Технокряк</h2>
-                            <p class="text-filter">Веб-сайт</p>
+                <ul class="list filter-list">
+                    <li class="filter-list-item"><a href="" class="link-filter"><img src="./images/photo1.jpg"
+                                alt="Технокряк" width="370" height="294">
+                            <div class="filter-container">
+                                <h2 class="title-filter">Технокряк</h2>
+                                <p class="text-filter">Веб-сайт</p>
+                            </div>
                         </a></li>
-                    <li><a href="" class="link-filter"><img src="./images/photo2.jpg"
+                    <li class="filter-list-item"><a href="" class="link-filter"><img src="./images/photo2.jpg"
                                 alt="Постер New Orlean vs Golden Star" width="370" height="294">
-                            <h2 class="title-filter">Постер New Orlean vs Golden Star</h2>
-                            <p class="text-filter">Дизайн</p>
+                            <div class="filter-container">
+                                <h2 class="title-filter">Постер New Orlean vs Golden Star</h2>
+                                <p class="text-filter">Дизайн</p>
+                            </div>
                         </a></li>
-                    <li><a href="" class="link-filter"><img src="./images/photo3.jpg" alt="Ресторан Seafood" width="370"
-                                height="294">
-                            <h2 class="title-filter">Ресторан Seafood</h2>
-                            <p class="text-filter">Додаток</p>
+                    <li class="filter-list-item"><a href="" class="link-filter"><img src="./images/photo3.jpg"
+                                alt="Ресторан Seafood" width="370" height="294">
+                            <div class="filter-container">
+                                <h2 class="title-filter">Ресторан Seafood</h2>
+                                <p class="text-filter">Додаток</p>
+                            </div>
                         </a></li>
-                    <li><a href="" class="link-filter"><img src="./images/photo4.jpg" alt="Проєкт Prime" width="370"
-                                height="294">
-                            <h2 class="title-filter">Проєкт Prime</h2>
-                            <p class="text-filter">Маркетинг</p>
+                    <li class="filter-list-item"><a href="" class="link-filter"><img src="./images/photo4.jpg"
+                                alt="Проєкт Prime" width="370" height="294">
+                            <div class="filter-container">
+                                <h2 class="title-filter">Проєкт Prime</h2>
+                                <p class="text-filter">Маркетинг</p>
+                            </div>
                         </a></li>
-                    <li><a href="" class="link-filter"><img src="./images/photo5.jpg" alt="Проєкт Boxes" width="370"
-                                height="294">
-                            <h2 class="title-filter">Проєкт Boxes</h2>
-                            <p class="text-filter">Додаток</p>
+                    <li class="filter-list-item"><a href="" class="link-filter"><img src="./images/photo5.jpg"
+                                alt="Проєкт Boxes" width="370" height="294">
+                            <div class="filter-container">
+                                <h2 class="title-filter">Проєкт Boxes</h2>
+                                <p class="text-filter">Додаток</p>
+                            </div>
                         </a></li>
-                    <li><a href="" class="link-filter"><img src="./images/photo6.jpg" alt="Inspiration has no Borders"
-                                width="370" height="294">
-                            <h2 lang="en" class="title-filter">Inspiration has no Borders</h2>
-                            <p class="text-filter">Веб-сайт</p>
+                    <li class="filter-list-item"><a href="" class="link-filter"><img src="./images/photo6.jpg"
+                                alt="Inspiration has no Borders" width="370" height="294">
+                            <div class="filter-container">
+                                <h2 lang="en" class="title-filter">Inspiration has no Borders</h2>
+                                <p class="text-filter">Веб-сайт</p>
+                            </div>
                         </a>
                     </li>
-                    <li><a href="" class="link-filter"><img src="./images/photo7.jpg" alt="Видання Limited Edition"
-                                width="370" height="294">
-                            <h2 class="title-filter">Видання Limited Edition</h2>
-                            <p class="text-filter">Дизайн</p>
+                    <li class="filter-list-item"><a href="" class="link-filter"><img src="./images/photo7.jpg"
+                                alt="Видання Limited Edition" width="370" height="294">
+                            <div class="filter-container">
+                                <h2 class="title-filter">Видання Limited Edition</h2>
+                                <p class="text-filter">Дизайн</p>
+                            </div>
                         </a></li>
-                    <li><a href="" class="link-filter"><img src="./images/photo8.jpg" alt="Проєкт Lab" width="370"
-                                height="294">
-                            <h2 class="title-filter">Проєкт <span class="title-part">Lab</span></h2>
-                            <p class="text-filter">Маркетинг</p>
+                    <li class="filter-list-item"><a href="" class="link-filter"><img src="./images/photo8.jpg"
+                                alt="Проєкт Lab" width="370" height="294">
+                            <div class="filter-container">
+                                <h2 class="title-filter">Проєкт <span class="title-part">Lab</span></h2>
+                                <p class="text-filter">Маркетинг</p>
+                            </div>
                         </a></li>
-                    <li><a href="" class="link-filter"><img src="./images/photo9.jpg" alt="Growing Business" width="370"
-                                height="294">
-                            <h2 lang="en" class="title-filter">Growing Business</h2>
-                            <p class="text-filter">Додаток</p>
+                    <li class="filter-list-item"><a href="" class="link-filter"><img src="./images/photo9.jpg"
+                                alt="Growing Business" width="370" height="294">
+                            <div class="filter-container">
+                                <h2 lang="en" class="title-filter">Growing Business</h2>
+                                <p class="text-filter">Додаток</p>
+                            </div>
                         </a></li>
                 </ul>
             </div>
@@ -97,16 +121,20 @@
     </main>
     <footer class="navigation">
         <div class="container">
-            <a href="./index.html" class="link"><span class="logo-first logo-link">Web</span><span
-                    class="logo-third logo-link">Studio</span></a>
+            <a href="./index.html" class="link logo-footer"><span class="logo-first logo-link">Web</span><span
+                    class="logo-third">Studio</span></a>
             <address class="navigation-after">
                 <ul class="list">
-                    <li><a href="https://goo.gl/maps/XB4yXC44z2DS1Ke76" class="link street ">м. Київ, пр-т Лесі
+                    <li class="footer-item-adress"><a href="https://goo.gl/maps/XB4yXC44z2DS1Ke76"
+                            class="link street logo-link">м. Київ, пр-т Лесі
                             Українки,
                             26</a>
                     </li>
-                    <li><a href="mailto:info@devstudio.com" class="link nav">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="link nav">+38 096 111 11 11</a></li>
+                    <li class="list-item-footer"><a href="mailto:info@devstudio.com"
+                            class="link nav">info@devstudio.com</a>
+                    </li>
+                    <li class="list-item-footer tel-footer"><a href="tel:+380961111111" class="link nav">+38 096 111 11
+                            11</a></li>
                 </ul>
             </address>
         </div>
