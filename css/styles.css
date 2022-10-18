@@ -15,7 +15,9 @@ body {
     font-family: 'Roboto',
         sans-serif;
     color: #757575;
+    margin: 0;
 }
+
 
 h1,
 h2,
@@ -116,6 +118,7 @@ img {
 
 .hero {
     background: var(--background-hero);
+    margin: 0;
 }
 
 .hero-title {
