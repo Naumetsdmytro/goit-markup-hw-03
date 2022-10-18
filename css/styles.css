@@ -228,20 +228,18 @@ img {
     text-align: var(--align-centermain);
     letter-spacing: var(--leter-spacingmain);
     color: var(--title-color);
-    margin-top: 30px;
+    font-size: 16px;
+    line-height: 1.18;
 }
 
 .team-text {
     text-align: var(--align-centermain);
     letter-spacing: var(--leter-spacingmain);
     margin-top: 10px;
-    padding-bottom: 30px;
-}
-
-.name {
     font-size: 16px;
     line-height: 1.18;
 }
+
 
 .logo-footer {
     display: block;
@@ -399,6 +397,34 @@ img {
 
 .team-list:not(:first-child) {
     margin-left: 30px;
+}
+
+.team-text-container {
+    padding: 30px 0;
+}
+
+.name {
+    padding: 0 70px;
+}
+
+.second-name {
+    padding: 0 83px;
+}
+
+.fourth-name {
+    padding: 0 63px 0 62px;
+}
+
+.second-text {
+    padding: 0 61px 0 62px;
+}
+
+.third-text {
+    padding: 0 97px;
+}
+
+.fourth-text {
+    padding: 0 91px 0 92px;
 }
 
 .logo-footer {
