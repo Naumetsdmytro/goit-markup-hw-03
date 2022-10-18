@@ -365,6 +365,7 @@ img {
 .logo {
     display: block;
     margin-right: 93px;
+    padding: 24px 0 25px;
 }
 
 
@@ -386,11 +387,12 @@ img {
 
 .work-container {
     display: flex;
+    margin-right: -30px;
 }
 
 
-.work-list-item:not(:first-child) {
-    margin-left: 30px;
+.work-list-item {
+    margin-right: 30px;
 }
 
 
