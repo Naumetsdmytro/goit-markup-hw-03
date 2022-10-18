@@ -119,7 +119,9 @@ img {
 .hero {
     background: var(--background-hero);
     margin: 0;
+    padding: 200px 0;
 }
+
 
 .hero-title {
     font-weight: 900;
@@ -131,9 +133,10 @@ img {
     max-width: 690px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 200px;
     margin-bottom: 30px;
 }
+
+
 
 .button {
     display: block;
@@ -153,7 +156,7 @@ img {
     display: block;
     padding: 10px 32px;
     border-radius: 4px;
-    margin-bottom: 200px;
+    border: none;
 }
 
 .button-hero:hover,
@@ -195,6 +198,7 @@ img {
 
 .work-example {
     background: var(--hero-title-color);
+    padding-top: 0;
 }
 
 
@@ -263,6 +267,7 @@ img {
 
 .navigation-after {
     font-style: normal;
+    margin-top: 20px;
 }
 
 .street {
@@ -296,7 +301,6 @@ img {
     cursor: pointer;
     padding: 6px 22px;
     border-radius: 4px;
-    margin-bottom: 50px;
 }
 
 .buutton-filter:hover,
@@ -318,7 +322,6 @@ img {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-color);
-    padding: 20px 24px 0;
 }
 
 .title-part {
@@ -330,7 +333,6 @@ img {
     line-height: 1.87;
     letter-spacing: var(--leter-spacingmain);
     margin-top: 4px;
-    padding: 0 24px 20px;
 }
 
 
@@ -378,14 +380,13 @@ img {
 .benefits-item {
     margin-left: 30px;
     flex-basis: calc(100% / 4 - 30px);
-    margin-top: -10px;
 }
 
 .benefits-text {
     margin-top: 10px;
 }
 
-.work-container {
+.work-list {
     display: flex;
     margin-right: -30px;
 }
@@ -396,7 +397,7 @@ img {
 }
 
 
-.team-container {
+.staff-list {
     display: flex;
 }
 
@@ -408,50 +409,24 @@ img {
     padding: 30px 0;
 }
 
-.name {
-    padding: 0 70px;
-}
-
-.second-name {
-    padding: 0 83px;
-}
-
-.fourth-name {
-    padding: 0 63px 0 62px;
-}
-
-.second-text {
-    padding: 0 61px 0 62px;
-}
-
-.third-text {
-    padding: 0 97px;
-}
-
-.fourth-text {
-    padding: 0 91px 0 92px;
+.footer-nav {
+    padding: 60px 0;
 }
 
 .logo-footer {
     display: block;
-    padding-top: 60px;
 }
 
 .list-item-footer {
     margin-top: 9px;
 }
 
-.footer-item-adress {
-    margin-top: 20px;
-}
 
-.tel-footer {
-    padding-bottom: 60px;
-}
 
-.nav-container {
+.filter-nav-list {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .button-nav:not(:last-child) {
@@ -466,7 +441,7 @@ img {
 }
 
 .filter-list-item {
-    flex-basis: calc(100% / 3 - 60px);
+    flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
 }
@@ -474,4 +449,5 @@ img {
 .filter-container {
     border: 1px solid #EEEEEE;
     border-top: 0;
+    padding: 20px 24px;
 }
